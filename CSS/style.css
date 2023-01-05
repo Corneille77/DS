@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    font-size: 30px;
+}
+
+li:hover{
+    border-bottom: 3px solid white;
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 10px;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+#reseau-sociaux{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 30px;
+}
+
+#reseau-sociaux i{
+    color: white;
+}
+
+#reseau-sociaux i:hover{
+    transform: scale(1.3);
+}
